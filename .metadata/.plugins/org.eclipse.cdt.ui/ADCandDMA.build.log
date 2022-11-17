@@ -1,0 +1,10 @@
+10:49:33 **** Incremental Build of configuration Debug for project ADCandDMA ****
+make -j4 all 
+arm-none-eabi-size   ADCandDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12920	     20	   9996	  22936	   5998	ADCandDMA.elf
+Finished building: default.size.stdout
+ 
+
+10:49:33 Build Finished. 0 errors, 0 warnings. (took 534ms)
+

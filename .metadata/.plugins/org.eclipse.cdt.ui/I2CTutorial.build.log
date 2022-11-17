@@ -1,0 +1,10 @@
+17:44:09 **** Incremental Build of configuration Debug for project I2CTutorial ****
+make -j4 all 
+arm-none-eabi-size   I2CTutorial.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17756	    120	   1744	  19620	   4ca4	I2CTutorial.elf
+Finished building: default.size.stdout
+ 
+
+17:44:09 Build Finished. 0 errors, 0 warnings. (took 521ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;MotorControlWPotentiometer.ioc&apos; to &apos;PWMtest&apos;" description="Move &apos;MotorControlWPotentiometer.ioc&apos; to &apos;PWMtest&apos;" destination="/PWMtest" element1="/MotorControlWPotentiometer/MotorControlWPotentiometer.ioc" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1667426112878" updateReferences="true"/>
+</session>

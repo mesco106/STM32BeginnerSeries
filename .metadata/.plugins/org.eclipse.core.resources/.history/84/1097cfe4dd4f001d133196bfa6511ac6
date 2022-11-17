@@ -1,0 +1,7 @@
+
+#include "led.h"
+#include "main.h"
+
+void LED::toggle(void){
+	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+}
