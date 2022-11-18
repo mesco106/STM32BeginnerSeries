@@ -60,8 +60,8 @@ all: main-build
 main-build: Blinking_LED.elf secondary-outputs
 
 # Tool invocations
-Blinking_LED.elf Blinking_LED.map: $(OBJS) $(USER_OBJS) /home/arc/STM32CubeIDE/workspace_1.10.1/Blinking_LED/STM32F303K8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/arc/STM32CubeIDE/workspace_1.10.1/Blinking_LED/STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Blinking_LED.elf Blinking_LED.map: $(OBJS) $(USER_OBJS) /home/mango/Workspaces/STM32BeginnerSeries/Blinking_LED/STM32F303K8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/mango/Workspaces/STM32BeginnerSeries/Blinking_LED/STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
